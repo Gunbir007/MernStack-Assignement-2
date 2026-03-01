@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="same">
+            <div class="heading">
+                <h1 class="Gun">Gunbir Singh</h1>
+                <p class="tag">Focused on logic, performance, and growth.</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href=#Loc_Home>Home</a></li>
+                    <li><a href=#Loc_About>About</a></li>
+                    <li><a href=#Loc_Project>Project</a></li>
+                    <li><a href=#Loc_Contact>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="home" id="Loc_Home">
+        <div class="same">
+            <h2>Reading Books</h2>
+            <p>Reading books is my favorite hobby, especially real-life story books that have an interesting climax or
+                elements of suspense. I enjoy learning about real people, their struggles, and the unexpected turns in
+                their lives, as it keeps me curious and emotionally connected to the story. Such books not only
+                entertain me but also inspire and motivate me by showing how real situations are faced and overcome.
+                Reading helps me relax, improves my imagination, and allows me to see life from different perspectives,
+                making it a meaningful and enjoyable hobby for me.
+            </p>
+            <h4>Benefits of Reading Books:</h4>
+            <div>
+                <input type="text" id="benefit" placeholder="Add a new benefit"><br>
+                <button class="add_benefit">Add Benefit</button>
+            </div>
+            <ol>
+                <li>Improves knowledge and vocabulary
+                    <button class="delete_button">Delete</button>
+                </li>
+                <li>Enhances focus and concentration
+                    <button class="delete_button">Delete</button>
+                </li>
+                <li>Reduces stress and boosts mental health
+                    <button class="delete_button">Delete</button>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+
+    <section class="about" id="Loc_About">
+        <div class="same">
+            <h2 class="abt">About</h2>
+            <p>I’m a BCA student passionate about technology, coding, and problem-solving. I like turning ideas into
+                working solutions and continuously learning new tools and concepts to improve my skills. My goal is to
+                build a strong foundation and grow as a competent software professional.</p>
+        </div>
+    </section>
+
+
+    <section class="Projects" id="Loc_Project">
+        <div class="same">
+            <h2>Projects</h2>
+            <div class="Projects_Grid">
+                <div class="box">
+                    <h4>Rock-Paper-Scissor-Game</h4>
+                    <p>This project is a simple command-line Rock Paper Scissors game built using Python. It allows the
+                        user to play against the computer, where the computer’s choice is generated randomly. The game
+                        compares user input with the system’s choice and displays the result as win, lose, or draw. This
+                        project helped me understand conditional statements, loops, and the use of Python’s random
+                        module.</p>
+                    <a href="https://github.com/Gunbir007/Rock-Paper-Scissor-" class="proj">View Project</a>
+                </div>
+                <div class="box">
+                    <h4>Restaurant-Menu</h4>
+                    <p>The menu-driven program is a Python application that displays a list of options to the user and
+                        performs specific actions based on the selected option. It uses loops and conditional logic to
+                        allow repeated operations until the user chooses to exit. This project helped me learn how to
+                        design user-friendly console programs and improve logical thinking in Python.</p>
+                    <a href="https://github.com/Gunbir007/Restaurant-Menu" class="proj">View Project</a>
+                </div>
+                <div class="box">
+                    <h4>Calculator</h4>
+                    <p>The calculator project is a Python-based application that performs basic arithmetic operations
+                        such as addition, subtraction, multiplication, and division. It takes user input, processes the
+                        operation based on the selected choice, and displays accurate results. This project strengthened
+                        my understanding of functions, user input handling, and control flow in Python.</p>
+                    <a href="https://github.com/Gunbir007/Calculator" class="proj">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Contact" id="Loc_Contact">
+        <div class="same">
+            <h2>Contact Me</h2>
+            <div class="form">
+                <form>
+                    <div class="form_details">
+                        <label>Name</label>
+                        <input type="text" id="name" required><br>
+                        <label>Email</label>
+                        <input type="email" id="mail" required><br>
+                        <label>Message</label>
+                        <textarea name="Message" id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="same">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/gunbir-singh-b03b48345/">LinkdenIn</a></li>
+                <li><a href="https://github.com/Gunbir007">GitHub</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="javascript.js"></script>     
+    
+</body>
+</html>
